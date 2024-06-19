@@ -1,0 +1,44 @@
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 200px;
+    background-image: linear-gradient(rgba(255, 192, 203, 0.438), white);
+    border-radius: 20px;
+    padding: 20px 60px;
+
+    .left-offer {
+
+        h1 {
+            font-size: 55px;
+        }
+
+        p {
+            color: grey;
+            margin: 10px 0;
+        }
+
+        button {
+            margin-top: 10px;
+            border-radius: 25px;
+            background: red;
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            padding: 10px 30px;
+            cursor: pointer;
+            transition: .4s;
+
+            &:hover {
+                background: rgb(210, 1, 1);
+            }
+        }
+    }
+
+    .right-offer {
+        img {
+            height: 400px;
+        }
+    }
+}

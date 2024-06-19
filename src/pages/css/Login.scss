@@ -1,0 +1,52 @@
+.login-page {
+    background-image: linear-gradient(rgb(255, 227, 232), rgb(255, 249, 251));
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .login {
+        background: white;
+        padding: 40px 40px 100px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        input {
+            padding: 15px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            background: white;
+            border: 1px solid #AAA;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background: red;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        p {
+            a {
+                color: red;
+            }
+        }
+
+        .checkbox {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            label {
+                font-size: 12px;
+            }
+        }
+    }
+}

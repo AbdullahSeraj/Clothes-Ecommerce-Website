@@ -1,0 +1,13 @@
+.breadcrums {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 7px;
+        margin: 0 10px;
+    }
+
+    span {
+        color: rgb(153, 153, 153);
+    }
+}

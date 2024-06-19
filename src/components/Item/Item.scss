@@ -1,0 +1,36 @@
+.item {
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: start;
+    cursor: pointer;
+
+    &:hover img {
+        transform: scale(1.05);
+    }
+
+    .container-img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            transition: .2s;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .price {
+
+        .new-price {
+            margin-right: 10px;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: rgba(128, 128, 128, 0.5);
+        }
+    }
+}
