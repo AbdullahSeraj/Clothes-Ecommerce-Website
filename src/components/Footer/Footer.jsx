@@ -31,7 +31,8 @@ export default function Footer() {
             </div>
 
             <div className="footer-copyright">
-                <p>Copyright @ 2024 - All Right Reserved | <span><a href="https://serajs.com" target="_blank">SERAJS.COM</a></span></p>
+                {/* <p>Copyright @ 2024 - All Right Reserved | <span><a href="https://serajs.com" target="_blank">SERAJS.COM</a></span></p> */}
+                <p>Copyright @ 2024 - All Right Reserved | <span>Eiad Arja</span></p>
             </div>
         </div>
     )
